@@ -70,7 +70,7 @@ $(document).ready(function () {
       data: treat,
     })
     .done(function () {
-      console.log('POST /treats received ', treat);
+      console.log('POST /treats sent ', treat);
       clearDom();
       getTreats();
     });
